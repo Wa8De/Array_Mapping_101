@@ -58,3 +58,10 @@ p{
 .param{
     color: aqua;
 }
+
+
+.card-product-container{
+width: 100%;
+display: flex;
+justify-content: center;
+}

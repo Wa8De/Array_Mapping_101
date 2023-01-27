@@ -8,7 +8,7 @@ export class Navlinks extends Component {
           <img /> 
         <NavLink to='/'>  <li>Home</li></NavLink>
         <NavLink to='/Discount'>   <li>Discounts</li></NavLink>
-        <NavLink to='About'>    <li>About</li></NavLink>
+        <NavLink to='/About'>    <li>About</li></NavLink>
         <NavLink to='/Login'>    <li>Login</li></NavLink>
         </ul>
       </>

@@ -8,7 +8,7 @@ export class Hero extends Component {
         <div className='cards-container'>
           {dataJSON.map((elem)=>
             <div className='card'>
-            <NavLink to='/Product '>
+            <NavLink to={`/Product/${elem.id}`}>
               <img className='prod-img' src={elem.image}width='310px' height={"220px"}/>
               <h4>{elem.name}</h4>
               <p> {elem.Specs}</p>

@@ -27,14 +27,14 @@ const dataJSON = [
         Specs: 'I7 4790K 8GB 256GB SSD 16in ',
         Price: "1000$"
     },{
-        id: 3,
+        id: 5,
         image: "https://duga.ma/2399-home_default/pc-portable-msi-gaming-gf63-thin-10scxr-i7-10th-gf63thin10scxr-641ma.jpg",
         name: "LAPTOP HP PROBOOK 2",
         Specs: 'I7 4790K 8GB 256GB SSD 16in ',
         Price: "5800$"
     },
     {
-        id: 4,
+        id: 6,
         image: "https://stationdetravail.ma/wp-content/uploads/2022/02/MSI-Stealth-15M-A11SEK-Intel-Core-i7-11e-generation-13fgh.png",
         name: "LAPTOP HP PROBOOK 2",
         Specs: 'I7 4790K 8GB 256GB SSD 16in ',

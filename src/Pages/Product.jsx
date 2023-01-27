@@ -1,19 +1,25 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import dataJSON from '../Components/DATA/dataJSON';
-import Layout from './Layout'
+import "../index.css"
 
 const Product = () => {
   const {id}=useParams();
   return (
-  <>
-  <Layout/>
-<div>
-  {console.log(dataJSON.filter((elems)=>elems.id==(id)).map((elem)=>{
-    <p> {elem.Price}</p>
-  }))}
+
+<div className='card-product-container'>
+{(dataJSON.filter((elems)=>elems.id==(id))).map((elem)=>
+
+<div className='card-product'>
+<img className='prod-img' src={elem.image}width='310px' height={"220px"}/>
+              <h4>{elem.name}</h4>
+              <p> {elem.Specs}</p>
+              <h2>{elem.Price}</h2>
 </div>
-  </>
+
+)}
+</div>
+
   )
 }
 
